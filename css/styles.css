@@ -1,0 +1,498 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    
+    font-family: 'Montserrat', sans-serif;
+    background: #E5E5E5;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+h1 {
+    color: #333333;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+    justify-content: space-between;
+    position: relative;
+}
+
+/* Contacts section */
+
+.contacts-section {
+    position: absolute;
+    top: 32px;
+    right: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.telegram-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+}
+
+.viber-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+}
+
+.phone-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+}
+
+.phone-link-number {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    text-decoration: none;
+}
+
+/* Experience section */
+
+.experience-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 268px;
+}
+
+.my-photo {
+    margin-bottom: 24px;
+    border-radius: 50%;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.instagram-icon {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.nodejs-icon {
+    margin-left: 12px;
+}
+
+.react-icon {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.python-icon {
+    margin-left: 12px;
+}
+
+.bash-icon {
+    margin-left: 12px;
+}
+
+.opencart-icon {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.gimp-icon {
+    margin-left: 12px;
+}
+
+.experience-description {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.experience-description-text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.tehnologies-container1 {
+    margin-bottom: 12px;
+}
+
+.tehnologies-container2 {
+    margin-bottom: 24px;
+}
+
+.my-projects-link {
+    font-style: normal;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #EB5757;
+    text-decoration-line: underline;
+}
+
+.goit-link {
+    font-style: normal;
+    font-size: 8px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #005bbb;
+    text-decoration-color: #ffd500;
+}
+
+/* My-info-section */
+
+.my-info-section {
+    margin: 0 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 33%;
+}
+
+.my-profession {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #333333;
+    margin-bottom: 32px;
+}
+
+.my-name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin-bottom: 32px;
+}
+
+.my-location {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: #e00001;
+    background: #005bbb;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.my-workstyle {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: #020001;
+    background: #ffd500;
+    padding-left: 17px;
+    padding-right: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.my-workstyle {
+    margin-bottom: 100px;
+}
+
+.my-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4F4F4F;
+    margin-bottom: 16px;
+}
+
+.my-skills-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin-bottom: 16px
+}
+
+.my-skills-list {
+    list-style: disc;
+    padding-left: 16px;
+}
+
+.my-skills-item {
+    font-size: 16px;
+    line-height: 24px;
+    color: #2F80ED;
+}
+
+.my-skills-text {
+    color: #4F4F4F;
+}
+
+/* Project price section */
+
+.project-price-section {
+    width: 33%;
+    margin-left: 24px;
+}
+
+.project-price-form {
+    background: #FFFFFF;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.project-price-title {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #2F80ED;
+    margin-bottom: 48px;
+}
+
+.project-type-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.project-type-form-field-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.project-price-select {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4F4F4F;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #4F4F4F;
+    padding-bottom: 8px;
+}
+
+.activity-type-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.activity-type-item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16px;
+}
+
+.activity-type-title {
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 16px;
+}
+
+.activity-type-checkbox {
+    width: 18px;
+    height: 18px;
+}
+
+.project-price-sum {
+    font-size: 16px;
+    line-height: 24px;
+    color: #4F4F4F;
+}
+
+.project-price-sum-currency {
+    color: #2F80ED;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.project-price-container {
+    margin-bottom: 32px;
+}
+
+.project-type-calculate-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    background: #2F80ED;
+    border-radius: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.project-price-calculate-btn-container {
+    width: 100%;
+    text-align: center;
+}
+/* Modal section */
+
+.modal-bgd {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: rgb(51 51 51 / 85%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    pointer-events: none;
+    opacity: 0;
+
+    transition: opacity 0.3s ease-in-out;
+}
+
+.modal-active {
+    pointer-events: all;
+    opacity: 1;
+}
+
+.modal-container {
+    background: #FFFFFF;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+    padding: 110px 6px;
+    width: 352px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+}
+
+.modal-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #2F80ED;
+    margin-bottom: 40px;
+        
+}
+
+.user-email-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+    width: 96%;
+}
+
+.modal-container-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    box-sizing: border-box;
+
+}
+
+.user-email {
+    width: 96%;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 8px 0;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #4F4F4F;
+}
+
+.email-input-container {
+    margin-bottom: 116px;
+    height: 116px;
+}
+
+.email-error-text {
+    font-size: 16px;
+    line-height: 19px;
+    color: #EB5757;
+    margin-top: 10px;
+    display: none;
+}
+
+.email-input-container-error .email-error-text {
+    display: block;
+}
+
+.email-input-container-error .user-email {
+    border-bottom: 1px solid #EB5757;
+}
+.modal-submit-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    background: #2F80ED;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    
+    padding: 8px 64px 8px 64px;
+    cursor: pointer;
+}
+
+.mail-icon {
+    margin-bottom: 32px;
+}
+
+.modal-close-btn {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+}
+
+.modal-success-message {
+    line-height: 24px;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    color: #2F80ED;
+}
+
+.modal-container-success {
+    background: #FFFFFF;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+    padding: 196px 12px 272px;
+    width: 364px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 636px;
+}
+
+.modal-success-icon {
+    margin-bottom: 32px;
+}
+
